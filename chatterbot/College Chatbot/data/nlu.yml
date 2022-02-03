@@ -1,0 +1,265 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good bye
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: thank
+  examples: |
+    - thank you
+    - thanks
+    - thank
+    - thank you for the help
+    - thanks for the help
+    - thanks for your help
+    - thank you for your help
+
+- intent: website
+  examples: |
+    - website
+    - what is the college website
+    - what is the college website?
+    - webpage
+    - how to go to college website
+    - college website
+    - website link
+
+- intent: departments
+  examples: |
+    - streams
+    - departments
+    - courses
+    - stream
+    - department
+    - course
+    - departments available
+    - availbale departments
+    - courses available
+    - availbale courses
+
+- intent: address
+  examples: |
+    - location
+    - located
+    - address
+    - station
+    - college address
+    - college location
+    - college located
+    - college station
+    - what is the college address
+    - where is the college located
+    - where is the college
+    - where is the college location
+    - what station
+    - which station
+
+- intent: ok
+  examples: |
+    - ok
+    - okay
+    - k
+    - fine
+    - understood
+    - got it
+
+- intent: events
+  examples: |
+    - event
+    - events
+    - extra curricular
+    - extracurricular
+    - college events
+    - events in college
+
+- intent: contact
+  examples: |
+    - contact
+    - contact college
+    - college contact
+    - reach college
+    - college number
+    - number for college
+    - college number
+
+- intent: principal
+  examples: |
+    - principal name
+    - principal
+    - name of principal
+    - principals name
+    - who is the principal
+
+- intent: newsletter
+  examples: |
+    - newsletter
+    - news letter
+    - newsletters
+    - news letters
+
+- intent: medium
+  examples: |
+    - which medium
+    - medium college
+    - english medium
+    - college language
+    - which language
+    - language of college
+
+- intent: course_len
+  examples: |
+    - course length
+    - length of course
+    - years is the course
+    - years for course
+    - how long is the course
+    - course years
+
+- intent: parallel_work
+  examples: |
+    - work parallely
+    - parallel work
+    - parallel job
+    - job parallely
+    - simultaneous job
+    - job simultaneously
+    - simultaneous work
+    - work simultaneously
+
+- intent: affailiation
+  examples: |
+    - college affaliated with
+    - affaliates the college
+    - affaliates college
+    - affaliated with
+    - which boards
+    - which board
+    - college is under
+
+- intent: exam_conduct
+  examples: |
+    - conducts the exam
+    - conducts the exams
+    - exam conductor
+    - exam conductors
+    - exams are contucted by
+    - exam is contucted by
+
+- intent: notice
+  examples: |
+    - notice
+    - notices
+    - notice board
+    - announcements
+    - announcement
+
+- intent: cutoff
+  examples: |
+    - cut off
+    - cutoff
+    - cut-off
+    - admission marks
+    - minimum marks
+    - minimum admission marks
+    - cet marks
+    - cet score
+    - required marks
+    - required admission marks
+    - required score
+    - required admission score
+
+- intent: eligibility
+  examples: |
+    - eligible for admission
+    - eligibility for admission
+    - admission eligibility
+    - marks required for admission
+    - score required for admission
+    - percentage required for admission
+    - admission after hsc
+    - post hsc admission
+
+- intent: payments
+  examples: |
+    - pay fees
+    - payment
+    - payments
+    - pay fee
+    - give fees
+    - send fees
+    - give fee
+    - send fee
+
+- intent: post_degree_choice
+  examples: |
+    - after degree
+    - after course
+    - after completion of course
+    - after completion of degree
+    - post degree
+    - post course
+    - post completion of course
+    - post completion of degree
+
+- intent: admission_process
+  examples: |
+    - admission process
+    - process for admission
+    - admission procedure
+    - procedure for admission
+    - how to get admission
+    - apply for admission
+    - admission aplication

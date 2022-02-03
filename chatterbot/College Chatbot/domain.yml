@@ -1,0 +1,114 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - thank
+  - bot_challenge
+  - website
+  - departments
+  - address
+  - ok
+  - events
+  - contact
+  - principal
+  - newsletter
+  - medium
+  - course_len
+  - parallel_work
+  - affailiation
+  - exam_conduct
+  - notice
+  - cutoff
+  - eligibility
+  - payments
+  - post_degree_choice
+  - admission_process
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_welcome:
+  - text: "You're Welcome"
+
+  utter_ask:
+  - text: "How can I help you?"
+
+  utter_website:
+  - text: "Our College Website is: http://www.frcrce.ac.in/"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, from Fr. CRCE College"
+
+  utter_more_questions:
+  - text: "What more do you want to know?"
+
+  utter_departments:
+  - text: "Available Courses: \nComputer Engineering \nElectronics and Computer Science \nInformation Technology \nScience and Humanities \nAI & Data Science"
+
+  utter_address:
+  - text: "The college address is: Fr. Conceicao Rodrigues College Of Engineering, Bandstand Promenade, Mount Mary, Bandra West, Mumbai, Maharashtra 400050"
+
+  utter_events :
+  - text: "Check out the latest events here: http://frcrce.ac.in/index.php/students/events-new"
+
+  utter_contact:
+  - text: "You can reach the College Office with: \nPhone: +91 (22) 6711 4000 / +91 (22) 6711 4100 \nE-mail: crce@frcrce.ac.in"
+
+  utter_principal:
+  - text: "Principal: Dr. Srija Unnikrishnan: http://www.frcrce.ac.in/index.php/about-us/principal-frcrce"
+
+  utter_newsletter:
+  - text: "College Newsletters: http://www.frcrce.ac.in/index.php/agnel-news-letter"
+
+  utter_medium:
+  - text: "The College is English Medium."
+
+  utter_course_len:
+  - text: "The Courses are 4 years long for Regular Students and 3 years long for Direct Second Year Students (Polytechnic admits)."
+
+  utter_parallel_work:
+  - text: "No! The college work needs exclusive attention. Parallel work would be too hectic."
+
+  utter_affiliation:
+  - text: "The College is Affiliated with Mumbai University."
+
+  utter_notice:
+  - text: "Check out the latest Notices here: http://frcrce.ac.in/index.php/students/crce-notices"
+
+  utter_cutoff:
+  - text: "Cutoff Score for Admission from MH-CET
+          \nCourse                                                    2019         2020
+          \nComputer Engineering                                      96.64        94.96
+          \nElectronics and Computer Science Engineering              93.1         89.38
+          \nMechanical Engineering                                    92.73        70.97
+          \nArtificial Intelligence and Data Science Engineering        -          90.97
+          \nProduction Engineering                                    68.47          -  "
+
+  utter_eligibility:
+    - text: "12th passed students with MH-CET score within the cut-off or Diploma passed with % within cut-off (Direct Second Year)"
+
+  utter_payments:
+    - text: "Fees can be paid physically using demand draft or Online: https://pay.fragnel.edu.in/CRCE/initPay.php"
+
+  utter_post_degree_choice:
+    - text: "After gaining Bachelor's Degree from the college, you can:
+            \n 1. Try for placements provided from college or apply for jobs externally.
+            \n 2. Go for Masters Degree either in the country or abroad.
+            \n 3. Go for Business startup."
+
+  utter_admission_process:
+    - text: "Admission Process:
+            \nUnder Graduate: http://www.frcrce.ac.in/index.php/admission/under-graduate
+            \nPost Graduate:  http://www.frcrce.ac.in/index.php/admission/post-graduate
+            \nPh.D:           http://www.frcrce.ac.in/index.php/admission/phd"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

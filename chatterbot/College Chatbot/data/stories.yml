@@ -1,0 +1,109 @@
+version: "2.0"
+
+stories:
+
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ask
+
+- story: ask website
+  steps:
+  - intent: website
+  - action: utter_website
+
+- story: location
+  steps:
+  - intent: address
+  - action: utter_address
+
+- story: department
+  steps:
+  - intent: departments
+  - action: utter_departments
+
+- story: understood
+  steps:
+  - intent: ok
+  - action: utter_more_questions
+
+- story: event
+  steps:
+  - intent: events
+  - action: utter_events
+
+- story: bot_challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: contacting
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: principal info
+  steps:
+  - intent: principal
+  - action: utter_principal
+
+- story: college newsletter
+  steps:
+    - intent: newsletter
+    - action: utter_newsletter
+
+- story: which medium
+  steps:
+    - intent: medium
+    - action: utter_medium
+
+- story: course length
+  steps:
+    - intent: course_len
+    - action: utter_course_len
+
+- story: work while studying
+  steps:
+    - intent: parallel_work
+    - action: utter_parallel_work
+
+- story: college affiliation
+  steps:
+    - intent: affailiation
+    - action: utter_affiliation
+
+- story: exam conduct
+  steps:
+    - intent: exam_conduct
+    - action: utter_affiliation
+
+- story: notices
+  steps:
+    - intent: notice
+    - action: utter_notice
+
+- story: ask cutoff
+  steps:
+    - intent: cutoff
+    - action: utter_cutoff
+
+- story: admit eligibility
+  steps:
+    - intent: eligibility
+    - action: utter_eligibility
+
+- story: payment
+  steps:
+    - intent: payments
+    - action: utter_payments
+
+- story: after degree
+  steps:
+    - intent: post_degree_choice
+    - action: utter_post_degree_choice
+
+- story: admission process
+  steps:
+    - intent: admission_process
+    - action: utter_admission_process
